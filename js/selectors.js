@@ -5,7 +5,7 @@ function paragraphSelector(){
 
 function lastImageSelector(){
   var imageArray = $('img')
-  var lastImage2 = imageArray[imageArray.length-1]
+  var lastImage2 = imageArray.pop()
   
   var lastImage = $('img:last')
   
