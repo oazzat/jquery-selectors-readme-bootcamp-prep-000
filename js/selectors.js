@@ -13,3 +13,7 @@ function ninjaBabySelector(){
   return ninBaby
 }
 
+function divSelector(){
+  var selec = $('.pics')
+  return selec
+}
